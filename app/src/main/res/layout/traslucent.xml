@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/chathead_relativelayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hapticFeedbackEnabled="true">
+
+    <LinearLayout
+        android:id="@+id/price_icon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/backchathead"
+        android:layoutAnimation="@anim/pulse_animation_layout"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="16dp"
+            android:text="SAVE"
+            android:textColor="#B22222"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textview_save_price"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="1000"
+            android:textStyle="bold"
+            android:textColor="#B22222"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+</RelativeLayout><!--
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:id="@+id/price_icon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/icon"
+        android:layoutAnimation="@anim/pulse_animation_layout"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="16dp"
+            android:text="SAVE"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textview_save_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+
+</RelativeLayout>-->
